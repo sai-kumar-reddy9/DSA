@@ -1,8 +1,6 @@
 public class Division {
 
-
-    class Solution {
-        public int divide(int dividend, int divisor) {
+            public int divide(int dividend, int divisor) {
             if(divisor==0) throw new ArithmeticException();
             if(dividend==0) return 0;
             if(divisor==1) return dividend;
@@ -44,8 +42,6 @@ public class Division {
     
             return result;
         }
-    }
-    write the main method
     public static void main(String[] args) {
         Division solution = new Division();
 
