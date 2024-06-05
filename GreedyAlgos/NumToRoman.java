@@ -29,7 +29,7 @@ public class NumToRoman {
     
             // Test cases
             int num1 = 3749;
-            int num2 = 58;
+            int num2 = 69;
             int num3 = 1994;
     
             System.out.println("Input: " + num1 + " -> Roman Numeral: " + solution.intToRoman(num1));
